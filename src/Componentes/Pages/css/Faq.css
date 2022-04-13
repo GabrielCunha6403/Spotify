@@ -1,0 +1,120 @@
+*{
+    color: white;
+}
+.navbar{
+    width: 100%;
+}
+
+.navbar li{
+    font-size: 25px;
+}
+
+.main-escopo{
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    width: 70%;
+}
+
+.secundary-escopo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    background: rgb(255, 255, 255);
+}
+.logo-faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.logo-faq img{
+    height: 211px;
+}
+
+.logo-faq .title1{
+    font-family: var(--bs-font-sans-serif);
+    font-size: 35px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.logo-faq .title2{
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+    margin: 20px 0;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+/* ======================== NOVA LISTA FAQ ======================== */ 
+.lista-faq{
+    width: 100%;
+    border-radius: 20px;
+    /*box-shadow: -8px 8px 14px 0px #888888;*/
+    margin-bottom: 50px;
+}
+
+.lista-faq ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+.lista-faq ul ul{
+    padding: 0;
+}
+
+.lista-faq ul a{
+    text-decoration: none;
+    display: block;
+}
+
+.lista-faq ul li{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 7px;
+}
+
+.lista-faq ul li a{
+    color: #1ab26b;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista-faq ul li a svg{
+    margin: 10px 20px;
+    color: #1ab26b;
+}
+
+.lista-faq ul li li{
+    font-size: 20px;
+    font-weight: 400;
+    background: #c7c7c7;
+    padding: 7px 0;
+    border: 0;
+}
+
+.lista-faq ul ul{
+    display: none;
+    flex-direction: column;
+    padding: 10px 30px;
+    font-weight: normal;
+}
+
+.lista-faq ul .itens-faq1.mostra{
+    display: block;
+}
+
+.mostra{
+    display: block;
+}
+
+.text-white {
+    text-decoration: none;
+}
